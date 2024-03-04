@@ -40,10 +40,12 @@ Ag = data.Ag  # 중심 각운동량 행렬
 print("h.angular: ", h.angular)
 roll_momentum = h.angular[0]  # Roll 방향 각운동량
 pitch_momentum = h.angular[1]  # Pitch 방향 각운동량
+yaw_momentum = h.angular[2]  # Yaw 방향 각운동량
 
 # 결과 출력
 print("Roll Angular Momentum:", roll_momentum)
 print("Pitch Angular Momentum:", pitch_momentum)
+print("Yaw Angular Momentum:", yaw_momentum)
 # 결과 출력
 # print("Centroidal Angular Momentum Vector:", h.flatten().T)
 # print("Centroidal Angular Momentum Matrix:\n", Ag)
